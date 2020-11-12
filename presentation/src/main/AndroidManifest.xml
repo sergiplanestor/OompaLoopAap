@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="revolhope.splanes.com.presentation">
+
+    <application>
+        <activity
+            android:name=".feature.splash.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.OompaLoopAap.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".feature.dashboard.DashboardActivity"
+            android:configChanges="orientation"
+            android:theme="@style/Theme.OompaLoopAap" />
+        <activity
+            android:name=".feature.detail.DetailActivity"
+            android:configChanges="orientation"
+            android:theme="@style/Theme.OompaLoopAap" />
+
+    </application>
+
+</manifest>

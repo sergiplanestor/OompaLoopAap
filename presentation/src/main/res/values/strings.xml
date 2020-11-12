@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_pretty">Oompa LoompAap</string>
+    <string name="gender_hint">Gender:</string>
+    <string name="age_hint">Age:</string>
+    <string name="height_hint">Height:</string>
+    <string name="see_details">See details</string>
+    <string name="physical_characteristics">Physical charac.</string>
+    <string name="quota_hint">Quota:</string>
+    <string name="song_hint">Song:</string>
+    <string name="description_hint">Description:</string>
+    <string name="filter">Filter</string>
+    <string name="apply_filters">Apply filters</string>
+    <string name="filter_gender">By gender:</string>
+    <string name="filter_profession">By profession:</string>
+    <string name="filter_profession_hint">Type profession…</string>
+    <string name="error_default">Oops.. Seems that something went wrong</string>
+    <string name="empty_state_title">Oops..</string>
+    <string name="empty_state_subtitle">No OoompaLoompa found, please try again!</string>
+
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_unknown">Unknown</string>
+
+    <string name="tab_info">Info</string>
+    <string name="tab_quota">Quota</string>
+    <string name="tab_song">Song</string>
+
+</resources>
