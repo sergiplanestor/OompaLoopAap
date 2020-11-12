@@ -15,11 +15,11 @@
         </activity>
         <activity
             android:name=".feature.dashboard.DashboardActivity"
-            android:configChanges="orientation"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.OompaLoopAap" />
         <activity
             android:name=".feature.detail.DetailActivity"
-            android:configChanges="orientation"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.OompaLoopAap" />
 
     </application>
