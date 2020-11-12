@@ -79,7 +79,7 @@ class DashboardActivity : BaseActivity<ActivityDashboardBinding>() {
             ))
         }
         observe(viewModel.emptyState) {
-            binding.employeeRecyclerView.isVisible = it
+            binding.employeeRecyclerView.isVisible = it.not()
             binding.emptyState.isVisible = it
         }
     }
